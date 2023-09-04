@@ -864,6 +864,7 @@
   .contact-wrapper .info {
     border-radius: 15px;
   }
+
   .intro .container {
     display: grid;
     align-items: center;
@@ -882,9 +883,11 @@
     gap: 20px;
     padding: 10 0px;
   }
+
   .intro .container .row h5 {
     text-align: center;
   }
+
   .intro .container .row p {
     font-size: 15px;
     text-align: justify;
@@ -896,10 +899,8 @@
 
   .portfolio-text {
     text-align: justify;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
+
   .portfolio-content-wrapper .row {
     gap: 20px;
   }
@@ -910,5 +911,13 @@
 
   .portfolio-card-img {
     height: 200px;
+  }
+
+  .portfolio-card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
