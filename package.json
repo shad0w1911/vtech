@@ -1,6 +1,5 @@
 {
   "name": "vtechsolutions",
-  "homepage": "https://shad0w1911.github.io/vtechsolutions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,6 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
     "framer-motion": "^10.16.2",
-    "gh-pages": "^6.0.0",
     "gsap": "^3.12.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
@@ -31,9 +29,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "postdeploy": "echo 'Deployed to GitHub Pages'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
