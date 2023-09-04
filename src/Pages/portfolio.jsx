@@ -65,15 +65,12 @@ const Portfolio = () => {
         <br />
         <br />
         <Row>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={boating}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -92,15 +89,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={invesSoc}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -117,15 +111,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={tableRes}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -146,15 +137,12 @@ const Portfolio = () => {
         </Row>
         <br />
         <Row>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={matApp}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -174,15 +162,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={stock}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -199,15 +184,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={data}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -228,15 +210,12 @@ const Portfolio = () => {
         <br />
         <br />
         <Row>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={web1}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -253,15 +232,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={mobApp}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -281,15 +257,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={web2}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -310,15 +283,12 @@ const Portfolio = () => {
         </Row>
         <br />
         <Row>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={soft1}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">CRM</CardTitle>
@@ -334,15 +304,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={chatApp}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">
@@ -362,15 +329,12 @@ const Portfolio = () => {
               </CardImgOverlay>
             </Card>
           </Col>
-          <Col>
+          <Col md="4" lg="4">
             <Card className="portfolio-card-wrapper">
               <CardImg
                 alt="Card image cap"
                 src={ecommerce}
-                style={{
-                  height: 270,
-                }}
-                width="100%"
+                className="portfolio-card-img"
               />
               <CardImgOverlay className="portfolio-card-overlay">
                 <CardTitle className="portfolio-card-heading">

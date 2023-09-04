@@ -51,10 +51,10 @@ const Home = () => {
         <section className="intro">
           <Container>
             <Row>
-              <Col md="2" lg="2" className="logo-holder">
+              <Col xs="12" sm="12" md="2" lg="2" className="logo-holder">
                 <img src={logo} alt="logo" className="logo" />
               </Col>
-              <Col md lg>
+              <Col xs="12" sm="12" md="2" lg="10">
                 <h5>
                   Welcome to V-Tech Solutions – Fastest Growing IT Company.
                 </h5>
